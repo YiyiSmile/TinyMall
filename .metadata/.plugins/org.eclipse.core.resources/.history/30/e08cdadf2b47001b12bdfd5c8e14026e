@@ -1,0 +1,33 @@
+package indi.tom.tinymall.product;
+
+
+
+
+import org.junit.jupiter.api.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.test.context.junit4.SpringRunner;
+
+import indi.tom.tinymall.product.entity.BrandEntity;
+import indi.tom.tinymall.product.service.BrandService;
+
+
+@SpringBootApplication
+class TinymallProductApplicationTest {
+	
+	@Autowired
+	BrandService brandService;
+
+	@Test
+	void test() {
+		BrandEntity entity = new BrandEntity();
+		entity.setName("华为");
+		System.out.println(entity);
+		
+		brandService.save(entity);
+		System.out.println("保存成功");
+		
+	}
+
+}

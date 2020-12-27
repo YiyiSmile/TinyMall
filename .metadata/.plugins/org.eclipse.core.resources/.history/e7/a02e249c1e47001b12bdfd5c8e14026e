@@ -1,0 +1,17 @@
+package indi.tom.tinymall.product;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+
+//@MapperScan("indi.tom.tinymall.product.dao")
+@SpringBootApplication
+public class TinymallProductApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(TinymallProductApplication.class, args);
+		
+	}
+
+}

@@ -1,0 +1,5 @@
+package indi.tom.tinymall.member.feign;
+
+public interface CouponService {
+
+}
