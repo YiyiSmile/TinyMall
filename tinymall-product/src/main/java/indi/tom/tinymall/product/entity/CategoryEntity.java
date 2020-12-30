@@ -1,10 +1,15 @@
 package indi.tom.tinymall.product.entity;
 
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 
 import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
+
+import org.apache.commons.io.filefilter.FalseFileFilter;
+
 import lombok.Data;
 
 /**
@@ -56,5 +61,8 @@ public class CategoryEntity implements Serializable {
 	 * 商品数量
 	 */
 	private Integer productCount;
+	
+	@TableField(exist = false)
+	List<CategoryEntity> childs;
 
 }
