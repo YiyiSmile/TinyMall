@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring accessors="true" comment="Delete 2 elements from project &apos;tinymall-common&apos;&#x0D;&#x0A;- Original project: &apos;tinymall-common&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     indi.tom.common.xss.XssFilter.java&#x0D;&#x0A;     indi.tom.common.xss.XssHttpServletRequestWrapper.java" description="Delete elements" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;indi.tom.common.xss{XssHttpServletRequestWrapper.java" element2="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;indi.tom.common.xss{XssFilter.java" elements="2" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1608818216367" subPackages="false" version="1.0"/>
-</session>

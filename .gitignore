@@ -5,6 +5,7 @@ target/
 !**/src/test/**/target/
 
 ### STS ###
+.metadata/
 .apt_generated
 .classpath
 .factorypath
@@ -45,5 +46,6 @@ hs_err_pid*
 *.iml
 *.class
 *.log
-.metadata
 demo
+.metadata
+

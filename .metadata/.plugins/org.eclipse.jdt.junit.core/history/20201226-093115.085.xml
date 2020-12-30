@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="MyTest" project="tinymall-product" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="indi.tom.tinymall.product.MyTest" time="0.0" displayname="MyTest" uniqueid="[engine:junit-jupiter]/[class:indi.tom.tinymall.product.MyTest]">
-    <testcase name="test" classname="indi.tom.tinymall.product.MyTest" time="0.0" displayname="test()" uniqueid="[engine:junit-jupiter]/[class:indi.tom.tinymall.product.MyTest]/[method:test()]"/>
-  </testsuite>
-</testrun>
