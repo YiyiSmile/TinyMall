@@ -38,6 +38,7 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
 		// you don't need to define an additional CategoryDao
 		// field which is autowired.
 		List<CategoryEntity> entities = baseMapper.selectList(null);
+		//Call getChildList() recursively to get the child list for each category.
 		List<CategoryEntity> level1Menu = entities.stream().filter(entity -> entity.getParentCid() == 0).map(entity -> {
 			entity.setChilds(getChildList(entity, entities));
 			return entity;
