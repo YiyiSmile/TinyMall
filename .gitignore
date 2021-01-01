@@ -48,4 +48,8 @@ hs_err_pid*
 *.log
 demo
 .metadata
+bootstrap.properties
+application-dev.yml
+application-prod.yml
+application-test.yml
 
