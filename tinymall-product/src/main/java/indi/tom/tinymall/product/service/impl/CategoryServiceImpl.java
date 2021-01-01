@@ -62,4 +62,11 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
 
 	}
 
+	@Override
+	public void removeCategoryByIds(List<Long> asList) {
+		// TODO Need to check if the category will be referenced by others.
+		baseMapper.deleteBatchIds(asList);
+		
+	}
+
 }
